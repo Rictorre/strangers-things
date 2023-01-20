@@ -1,0 +1,238 @@
+* {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(234, 236, 255);
+    justify-content: center;
+    margin: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .post {
+    flex-direction: column;
+    font-size: 20px;
+  }
+  
+  #profilePosts {
+    flex-direction: column;
+    margin-top: 10px;
+    border: solid black 2px;
+    border-radius: 10px;
+    border: solid black 2px;
+    padding: 30px;
+  }
+  
+  #app {
+    flex-direction: column;
+  }
+  
+  #postMain {
+    flex-direction: column;
+    margin-top: 10px;
+    border: solid rgb(255, 0, 0) 5px;
+    border-radius: 10px;
+  }
+  .nav-bar {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+  }
+
+  #app-control {
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    border: solid rgb(255, 0, 0) 5px;
+    border-radius: 10px;
+    height: 100px;
+  }
+  
+  .post {
+    border: solid black 2px;
+    padding: 30px;
+  }
+  .description {
+    font-style: italic;
+  }
+  
+  button {
+    transition: all 0.5s ease-in-out;
+    text-align: center;
+    line-height: 1;
+    font-size: 17px;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+  }
+  button:hover {
+    color: blue;
+    background-color: #2d3047;
+  }
+  
+  .logInform{
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+  }
+  #username{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 400px;
+  }
+
+  #password{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 400px;
+  }
+  #newUserLink{
+    text-align: center;
+  }
+  #title{
+    background-color: gray;
+    height: 100px;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    text-decoration: underline rgb(255, 0, 0);
+  }
+  #submitButton{
+    align-items: center;
+    width: 400px;
+    color: red;
+    border: 3px black solid;
+    border-radius: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #header-search{
+    font-size: 20px;
+    width: 400px;
+  }
+  #submit{
+    align-items: center;
+    height:30px;
+    width: 100px;
+    margin-left: 420px;
+    margin-top: -6%;
+    color: red;
+    border: 3px black solid;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #Profile{
+    font-size: 50px;
+  }
+  .newUserForm{
+    display: block;
+    margin: auto;
+    width: 435px;
+    margin-top: 50px;
+  }
+#newUser{
+  font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 400px;
+}
+#newPassword{
+  font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 400px;
+
+}
+#alreadyUser{
+  text-align: center;
+}
+#homeLink{
+  font-size: 25px;
+}
+#profileLink{
+  font-size: 25px;
+}
+
+#postsLink{
+  font-size: 25px;
+
+}
+
+#noMessages{
+  border: 5px black solid;
+  padding-top:10px;
+  padding-bottom: 50px;
+  padding-left: 10px;
+  margin: 50px;
+  font-size: 35px;
+}
+#noPosts{
+  border: 5px black solid;
+  padding-top:10px;
+  padding-bottom: 50px;
+  padding-left: 10px;
+  margin: 50px;
+  font-size: 35px;
+}
+#postTitle{
+  font-size: 25px;
+  width: 500px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 5px;
+  
+}
+#description{
+  font-size: 18px;
+  width: 500px;
+  padding-bottom: 100px;
+  margin-bottom: 5px;
+  border: 2px solid black;
+}
+#price{
+  font-size: 25px;
+  width: 500px;
+  margin-bottom: 5px;
+}
+#location{
+  font-size: 25px;
+  width: 500px;
+  margin-bottom: 5px;
+  
+}
+#willDeliver{
+  font-size: 25px;
+  text-align: center;
+  text-decoration: underline;
+}
+#checkbox{
+  margin-top:-10px;
+  margin-bottom:10px;
+}
+.postDetails{
+margin:auto;
+display: block;
+}
+#messageInput{
+  width: 500px;
+  height: 200px;
+  border: 2px black solid;
+  margin-top: 50PX;
+}
+.sendMessage{
+margin:auto;
+display: block;
+}
+.messages{
+  border: 2px black solid;
+  border-radius: 10px;
+}
+#editButton{
+  width: 200px;
+}
+#logOutButton{
+  color: red;
+  border: 3px black solid;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
